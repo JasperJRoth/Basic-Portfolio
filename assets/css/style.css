@@ -1,0 +1,49 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightgrey;
+    color: #777777;
+}
+
+h1, h2{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+}
+
+footer{
+    background-color: #666666;
+    color: #dddddd;
+}
+
+#headerBar{
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+#name{
+    background-color: #4aaaa5;
+}
+
+#links{
+
+}
+
+.siteLink{
+    
+}
+
+.linkDivider{
+
+}
+
+.contentTitle{
+    background-color: #4aaaa5;
+}
+
+.contentCard{
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+.contentBody{
+    background-color: inherit;
+}

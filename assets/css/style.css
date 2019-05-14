@@ -154,3 +154,25 @@ footer div{
 
     background-color: rgba(74, 170, 165, 0.7)
 }
+
+.contactInput{
+    margin-bottom: 15px;
+    padding: 5px;
+
+    width: 480px;
+}
+
+.msgInput{
+    display: block;
+}
+
+.contactSubmit{
+    background-color: #4aaaa5;
+    color: #ffffff;
+
+    margin-top: 20px;
+    padding: 5px 20px;
+    border: 0px;
+
+    font-size: 1.3em;
+}

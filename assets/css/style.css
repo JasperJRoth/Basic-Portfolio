@@ -112,3 +112,23 @@ footer div{
     clear: both;
     display: table;
   }
+
+
+.contentImage{
+    float: left;
+
+    height: 200px;
+    width: 200x;
+
+    margin-right: 15px;
+}
+
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+    text-indent: 30px;
+}
+
+p, ul{
+    line-height: 1.5;
+}

@@ -19,6 +19,16 @@ h1, h2{
     font-size: 30px;
 }
 
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+    text-indent: 30px;
+}
+
+p, ul{
+    line-height: 1.5;
+}
+
 footer{
     background-color: #666666;
     color: #dddddd;
@@ -123,12 +133,24 @@ footer div{
     margin-right: 15px;
 }
 
-ul{
-    list-style-type: circle;
-    list-style-position: inside;
-    text-indent: 30px;
+.portfolioItemContainer{
+    position: relative;
 }
 
-p, ul{
-    line-height: 1.5;
+.portfolioItemContainer, .portfolioItemContainer img{
+    width: 270px;
+    height: 200px;
+}
+
+.portfolioItem{
+    position: absolute;
+    bottom: 30px;
+
+    width: 100%;
+    padding: 15px 0px;
+
+    text-align: center;
+    color: #ffffff;
+
+    background-color: rgba(74, 170, 165, 0.7)
 }
